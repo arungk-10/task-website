@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lowest Rates Test</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="sideMenuBar" style="display:none;z-index:7;width:50%;min-width:300px;top:0;font-size:20px" id="sideMenuBar">
+  <a href="javascript:void(0)" onclick="closeSideMenu()" class="menu-item btnClass">Close Menu</a>
+  <a href="#contentSection" onclick="closeSideMenu()" class="menu-item btnClass">Insurance</a>
+  <a href="#contentSection" onclick="closeSideMenu()" class="menu-item btnClass">Mortgage</a>
+  <a href="#contentSection" onclick="closeSideMenu()" class="menu-item btnClass">Home Insurance</a>
+  <a href="#contentSection" onclick="closeSideMenu()" class="menu-item btnClass">Life Property Insurance</a>
+  <a href="#contentSection" onclick="closeSideMenu()" class="menu-item btnClass">Auto and Credit Cards</a>
+  <a href="#contentSection" onclick="closeSideMenu()" class="menu-item btnClass">Travel Insurance</a>
+</nav>
+
+<div style="position: fixed; width: 100%;z-index: 1;top:0">
+  <div class="white" style="max-width:1200px;margin:auto;font-size: 20px">
+    <div class="btnClass ptb f-left" onclick="openSideMenu()">☰</div>
+    <div class="f-right ptb" style="padding-right: 14px;" onclick="loginClick()">Login</div>
+    <div class="center ptb">Lowest Rates Test</div>
+  </div>
+</div>
+
+<div class="main content" style="max-width:1200px;margin-top:100px;padding: 7px 14px!important;" id="topDivSec">
+  <div class="clear ptb center" id="contentSection">
+    <div class="servicesDiv">
+      <img src="./images/credit-card.svg" alt="Nice Mortage Rates" style="width:100%">
+      <h3>Nice Mortage Rates</h3>
+      <p>Come get the best mortage rates at Lowestrates.ca</p>
+    </div>
+    <div class="servicesDiv">
+      <img src="./images/credit-card.svg" alt="Get best car insurance" style="width:100%">
+      <h3>Get best car insurance</h3>
+      <p>Come get it at lr.ca best car insurance.</p>
+    </div>
+    <div class="servicesDiv">
+      <img src="./images/credit-card.svg" alt="Best Home insurance" style="width:100%">
+      <h3>Best Home insurance</h3>
+      <p>Get your best car insurance. Get it now. Come get it, best best of the best</p>
+      <p>What else?</p>
+    </div>
+    <div class="servicesDiv">
+      <img src="./images/credit-card.svg" alt="car loans car loans car loans!" style="width:100%">
+      <h3>car loans car loans car loans! </h3>
+      <p>get your car loans here, come come come.</p>
+    </div>
+  </div>
+ 
+   <div class="paginationDivSec center">
+    <div class="paginationDiv">
+      <a href="#" class="pageNo btnClass">«</a>
+      <a href="#" class="pageNo btnClass" style="background-color: #000; color:#fff">1</a>
+      <a href="#" class="pageNo btnClass">2</a>
+      <a href="#" class="pageNo btnClass">3</a>
+      <a href="#" class="pageNo btnClass">4</a>
+      <a href="#" class="pageNo btnClass">»</a>
+    </div>
+  </div>
+  <hr>
+  <div style="text-align: center;">
+    <h3>About Lowestrates</h3><br>
+    <img src="./images/canada-coin.png" alt="Lowestrates" class="image" style="display:block;margin:auto" width="800" height="600">
+    <div style="padding-top: 20px;padding-bottom: 20px;">
+      <h3>What is Lowestrates.ca?</h3>
+      <h6><i>you will love it once you try it</i></h6>
+      <p>come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, come get it, best rate comparison site!! come get it, </p>
+    </div>
+  </div>
+  <hr>
+  
+  <footer id="footerSec">
+    <div class="footerSection">
+      <h3>FOOTER</h3>
+      <p>best fooder ever!</p>
+      <p>Lowestrates.ca All Rights Reserved</p>
+    </div>
+  
+    <div class="footerSection clear">
+      <h3>BLOGS AND ARTICLES</h3>
+      <ul class="ul">
+        <li class="ptb">
+          <img src="./images/article1.jpg" class="f-left mr" style="width:50px">
+          <span class="large">Article 1</span><br>
+          <span>Best articles</span>
+        </li>
+        <li class="ptb">
+          <img src="./images/article2.jpg" class="f-left mr" style="width:50px">
+          <span class="large">Article 1</span><br>
+          <span>same good stuff</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="footerSection">
+      <h3>INSURANCE TYPES</h3>
+      <p>
+        <span style="background-color: #000;font-size: 18px!important">Home</span> 
+        <span>Auto</span> 
+        <span>Car</span>
+        <span>Totonto</span> 
+        <span>Ontario</span> 
+        <span>Mortgage</span>
+        <span>Insurance</span> 
+        <span>Car Loans</span>
+        <span>Life Insurance</span>
+        <span>Snow bird travel insurance</span>
+        <span>Some long category test list list list</span> 
+        <span>Finance</span> 
+        <span>Lowestrates.cs</span> 
+        <span>Credit Cards</span>
+      </p>
+    </div>
+  </footer>
+</div>
+
+<script>
+  function openSideMenu() {
+    document.getElementById("sideMenuBar").style.display = "block";
+  }
+   
+  function closeSideMenu() {
+    window.location.href = '#topDivSec';
+    document.querySelectorAll('.dynamicItem').forEach(e => e.remove());
+    document.getElementById("sideMenuBar").style.display = "none";
+  }
+  
+  
+  function loginClick() {
+    window.location.href = '#footerSec';
+    addAdditionalMenuItems();
+    openSideMenu();
+  }
+  
+  function addAdditionalMenuItems() {
+    document.querySelectorAll('.dynamicItem').forEach(e => e.remove());
+    const menu = document.querySelector('.sideMenuBar');
+    const additionalMenuItems = ['Debt', 'Finance', 'Loans'];
+    additionalMenuItems.forEach(item => {
+        const link = document.createElement('a');
+        link.href = '#contentSection';
+        link.className = 'menu-item btnClass dynamicItem';
+        link.textContent = item;
+        link.addEventListener('click', closeSideMenu);
+        menu.insertBefore(link, menu.children[1]);
+    });
+  }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+html {
+  box-sizing: border-box
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px
+}
+
+.white {
+  color: #000 !important;
+  background-color: #fff !important
+}
+
+.servicesDiv {
+  width: 100%;
+  text-align: center;
+}
+
+.ptb {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important
+}
+
+.mr {
+  margin-right: 14px !important;
+}
+
+.btnClass {
+  border: none;
+  display: inline-block;
+  padding: 7px 14px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+
+.btnClass:hover {
+  color: #000 !important;
+  background-color: #ccc !important
+}
+
+.f-left {
+  float: left !important
+}
+
+.f-right {
+  float: right !important
+}
+
+.center {
+  text-align: center !important
+}
+
+.footerSection {
+  float: left;
+  width: 100%
+}
+
+.footerSection p span {
+  background-color: #616161;
+  color: #fff;
+  display: inline-block;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 14px !important;
+  text-align: center;
+  margin-bottom: 14px !important
+}
+
+.paginationDivSec .paginationDiv {
+  display: inline-block;
+  width: auto;
+}
+
+.paginationDiv {
+  width: 100%;
+  overflow: hidden
+}
+
+.paginationDiv .pageNo {
+  padding: 7px 14px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0
+}
+
+.sideMenuBar .dropdown-hover,
+.sideMenuBar .dropdown-click {
+  position: static;
+  float: left
+}
+
+.sideMenuBar .button {
+  white-space: normal
+}
+
+.sideMenuBar .menu-item {
+  width: 100%;
+  display: block;
+  padding: 7px 14px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0
+}
+
+.sideMenuBar.center .menu-item {
+  text-align: center
+}
+
+.block {
+  display: block;
+  width: 100%
+}
+.clear:after,
+.clear:before{
+  content: "";
+  display: table;
+  clear: both
+}
+
+img {
+  border-style: none
+}
+
+html {
+  overflow-x: hidden
+}
+
+
+h3 {
+  font-size: 24px
+}
+
+h6 {
+  font-size: 14px
+}
+
+h3,
+h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0
+}
+
+.image {
+  max-width: 100%;
+  height: auto
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0
+}
+
+.ul li {
+  padding: 7px 14px;
+  border-bottom: 1px solid #ddd
+}
+
+.ul li:last-child {
+  border-bottom: none
+}
+
+.sideMenuBar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto
+}
+
+@media (min-width:601px) {
+  .footerSection {
+    width: 33.33333%
+  }
+  .servicesDiv {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+  }
+}
